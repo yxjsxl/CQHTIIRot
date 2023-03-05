@@ -1,0 +1,15 @@
+[2023-03-01 20:29:49] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-03-01 20:29:49] [WARNING]: 将在 5秒 后继续. 
+[2023-03-01 20:29:54] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2023-03-01 20:30:16] [WARNING]: 登录失败: 你的用户身份已失效，为保证帐号安全，请你重新登录。 
+[2023-03-01 20:30:40] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-03-01 20:30:40] [WARNING]: 将在 5秒 后继续. 
+[2023-03-01 20:30:59] [WARNING]: 登录失败: 你的用户身份已失效，为保证帐号安全，请你重新登录。 
+[2023-03-01 20:32:03] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-03-01 20:32:03] [WARNING]: 将在 5秒 后继续. 
+[2023-03-01 20:32:36] [WARNING]: 登录失败: 你的用户身份已失效，为保证帐号安全，请你重新登录。 
+[2023-03-01 20:34:14] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-03-01 20:34:14] [WARNING]: 将在 5秒 后继续. 
+[2023-03-01 20:34:43] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-01 20:42:22] [FATAL]: open cache image db failed: The process cannot access the file because it is being used by another process. 
+[2023-03-01 21:02:33] [WARNING]: Protocol -> device lock is disable. http api may fail. 

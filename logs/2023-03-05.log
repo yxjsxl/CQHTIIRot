@@ -1,0 +1,2 @@
+[2023-03-05 11:00:41] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-05 11:00:50] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 

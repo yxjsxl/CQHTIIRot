@@ -1,0 +1,120 @@
+[2023-03-04 09:27:56] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 09:28:19] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 11:02:11] [WARNING]: 语音文件 37B6EC55C211C8761FF22E6B96B0A0AD.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-04 11:02:37] [WARNING]: 语音文件 6D2D430630BF2E574D41FFF3FE849B59.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-04 11:30:52] [WARNING]: 语音文件 5EA96262D4C29A5C0C4E561E594252BC.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-04 12:15:49] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 12:15:58] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 13:13:28] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.14:53041->220.194.118.230:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-03-04 13:13:28] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 116.147.18.244:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-04 13:13:28] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 116.147.18.244:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-04 13:13:28] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-03-04 13:13:31] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-03-04 13:13:34] [WARNING]: 尝试重连... 
+[2023-03-04 13:13:34] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 116.130.229.43:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-04 13:13:34] [WARNING]: 快速重连失败: dial tcp error: dial tcp 116.130.229.43:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-04 13:13:34] [FATAL]: 快速重连失败, 扫码登录无法恢复会话. 
+[2023-03-04 17:04:18] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 17:04:26] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 17:04:45] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 137 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1()
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:335 +0x54
+panic({0x1618740, 0x1225f8e0})
+	runtime/panic.go:884 +0x1ba
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x123b8000, 0x12317810, {0x1222c820, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/multimsg.go:108 +0xd12
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x123012f0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:346 +0x1b3
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:332 +0x4a7
+ 
+[2023-03-04 17:04:45] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1677920685.dump 请连同日志提交给开发者处理 
+[2023-03-04 17:05:14] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2023-03-04 17:05:41] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 17:05:50] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 17:05:52] [WARNING]: 警告: 聊天服务器延迟为 1034ms，大于 1000ms, 可能出现消息丢失/延迟或频繁掉线等情况, 请检查本地网络状态. 
+[2023-03-04 17:05:59] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 372 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1()
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:335 +0x54
+panic({0x1618740, 0x12401d00})
+	runtime/panic.go:884 +0x1ba
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x1204d180, 0x1251e1a0, {0x1232bdb0, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/multimsg.go:108 +0xd12
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x125b57d0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:346 +0x1b3
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:332 +0x4a7
+ 
+[2023-03-04 17:05:59] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1677920759.dump 请连同日志提交给开发者处理 
+[2023-03-04 17:06:28] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2023-03-04 17:16:22] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 17:16:30] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 17:38:42] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 17:38:50] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 17:58:47] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 17:58:59] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 17:59:28] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:48:46] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:49:01] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:50:19] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:50:27] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 18:50:44] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 430 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1()
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:335 +0x54
+panic({0x1618740, 0x1217a530})
+	runtime/panic.go:884 +0x1ba
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x123a0000, 0x12506980, {0x12222870, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/multimsg.go:108 +0xd12
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x1217c840)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:346 +0x1b3
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:332 +0x4a7
+ 
+[2023-03-04 18:50:44] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1677927044.dump 请连同日志提交给开发者处理 
+[2023-03-04 18:51:14] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2023-03-04 18:51:34] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:51:42] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 18:52:52] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 1003 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x83
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1()
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:335 +0x54
+panic({0x1618740, 0x122c4bb0})
+	runtime/panic.go:884 +0x1ba
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x12430000, 0x12186c60, {0x123ab9a0, 0x49, 0x49})
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/multimsg.go:108 +0xd12
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x125c7200)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:346 +0x1b3
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20221202060717-4658474c60dd/client/network.go:332 +0x4a7
+ 
+[2023-03-04 18:52:52] [ERROR]: 出现错误 packet decode error: MultiMsg.ApplyDown - runtime error: index out of range [0] with length 0. 详细信息已转储至文件 dumps/1677927172.dump 请连同日志提交给开发者处理 
+[2023-03-04 18:53:22] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2023-03-04 18:55:16] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:55:24] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 18:58:13] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:58:22] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 18:59:45] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 18:59:53] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 19:03:04] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 19:03:12] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 19:03:37] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 19:03:45] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 19:17:03] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 19:17:12] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 19:17:58] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 19:18:07] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 19:23:04] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-04 19:23:12] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-04 20:37:24] [ERROR]: Protocol -> get msg error: 101  
+[2023-03-04 20:37:24] [WARNING]: 获取群历史消息失败: get msg error: 101 msg:  

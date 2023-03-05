@@ -1,0 +1,47 @@
+[2023-03-03 18:41:35] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-03 18:41:45] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-03 18:42:11] [WARNING]: 获取消息时出现错误: get value error: leveldb: not found 
+[2023-03-03 18:42:30] [WARNING]: 获取消息时出现错误: get value error: leveldb: not found 
+[2023-03-03 18:42:40] [WARNING]: 获取消息时出现错误: get value error: leveldb: not found 
+[2023-03-03 18:47:40] [ERROR]: Protocol -> get msg error: 104  
+[2023-03-03 18:47:40] [WARNING]: 获取群历史消息失败: get msg error: 104 msg:  
+[2023-03-03 18:48:35] [ERROR]: Protocol -> get msg error: 104  
+[2023-03-03 18:48:35] [WARNING]: 获取群历史消息失败: get msg error: 104 msg:  
+[2023-03-03 18:48:47] [ERROR]: Protocol -> get msg error: 104  
+[2023-03-03 18:48:47] [WARNING]: 获取群历史消息失败: get msg error: 104 msg:  
+[2023-03-03 18:48:59] [ERROR]: Protocol -> get msg error: 104  
+[2023-03-03 18:48:59] [WARNING]: 获取群历史消息失败: get msg error: 104 msg:  
+[2023-03-03 18:49:07] [ERROR]: Protocol -> get msg error: 104  
+[2023-03-03 18:49:07] [WARNING]: 获取群历史消息失败: get msg error: 104 msg:  
+[2023-03-03 18:49:12] [ERROR]: Protocol -> get msg error: 104  
+[2023-03-03 18:49:12] [WARNING]: 获取群历史消息失败: get msg error: 104 msg:  
+[2023-03-03 18:49:51] [ERROR]: Protocol -> get msg error: 104  
+[2023-03-03 18:49:51] [WARNING]: 获取群历史消息失败: get msg error: 104 msg:  
+[2023-03-03 19:09:46] [WARNING]: 语音文件 122959F0D7A4EE3ED069AEBB0120C990.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 19:10:30] [WARNING]: 语音文件 AFF0AA1C241A6437F6CF06E6F9862162.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 19:10:50] [WARNING]: 语音文件 D5EA8BBEE5105FBF53E2A35AC7DE5F24.amr 下载失败: Get "http://grouptalk.c2c.qq.com": dial tcp: lookup grouptalk.c2c.qq.com: no such host 
+[2023-03-03 19:10:50] [WARNING]: 语音文件 6C68E90FCE8AB86D8841AAAE4497B7F8.amr 下载失败: Get "http://grouptalk.c2c.qq.com": dial tcp: lookup grouptalk.c2c.qq.com: no such host 
+[2023-03-03 19:11:35] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.14:52226->220.194.118.236:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-03-03 19:11:35] [WARNING]: 语音文件 987C1C03D199E2CECC1F670F9A9F18CE.amr 下载失败: Get "http://grouptalk.c2c.qq.com": read tcp [2408:8207:265a:7f20:19d0:95a6:b731:79d2]:54021->[2408:8756:f50:3000::7]:80: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-03-03 19:11:35] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 59.83.207.217:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-03 19:11:35] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 59.83.207.217:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-03 19:11:35] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-03-03 19:11:38] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-03-03 19:11:41] [WARNING]: 尝试重连... 
+[2023-03-03 19:11:41] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 125.39.196.243:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-03 19:11:41] [WARNING]: 快速重连失败: dial tcp error: dial tcp 125.39.196.243:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-03-03 19:11:41] [FATAL]: 快速重连失败, 扫码登录无法恢复会话. 
+[2023-03-03 19:35:06] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-03 19:35:16] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-03 20:25:03] [WARNING]: 语音文件 D6153FDFBDF59FE28F90579C9D3D1322.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 20:43:45] [WARNING]: 语音文件 537BD60421C1938AE61EAC28924D7F9B.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 20:44:54] [WARNING]: 语音文件 C77061291020F638BB51E1AD4AF5D90F.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 20:46:48] [WARNING]: 语音文件 0AB5D09DA4091E79C7162610760D328D.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 20:48:34] [WARNING]: 语音文件 726A71D7BAA1776E2F8CEE73CFE339D8.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 20:48:34] [WARNING]: 语音文件 1B4CAA45A1C6FBB22E202ACE7AF8229E.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 21:24:39] [WARNING]: 语音文件 FF9FDE1A63130EC182A9CC87EE50EDEF.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 21:24:52] [WARNING]: 语音文件 152DE11C0312CD2709253164A328F3BF.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 21:25:18] [WARNING]: 语音文件 2C45FFB84828CB428BB5D3EF504D9E3D.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 21:30:35] [WARNING]: 语音文件 BE7DD3DAEC9BEEC1FBECB0D68DE4F3B1.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 21:30:48] [WARNING]: 语音文件 B364B4B3D573E838761BBCE39D68E0B1.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-03 21:32:14] [WARNING]: 语音文件 16F69E2D887F433EF9AA362B46C0026F.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 

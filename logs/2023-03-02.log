@@ -1,0 +1,43 @@
+[2023-03-02 17:54:29] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-02 17:54:38] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-02 17:59:11] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-02 17:59:18] [WARNING]: 读取http配置失败 :yaml: unmarshal errors:
+  line 109: cannot unmarshal !!map into []server.httpServerPost 
+[2023-03-02 17:59:20] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-02 17:59:47] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-02 17:59:55] [WARNING]: 读取http配置失败 :yaml: unmarshal errors:
+  line 105: cannot unmarshal !!map into []server.httpServerPost 
+[2023-03-02 17:59:57] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-02 18:00:50] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-02 18:00:58] [WARNING]: 读取http配置失败 :yaml: unmarshal errors:
+  line 107: cannot unmarshal !!map into []server.httpServerPost 
+[2023-03-02 18:01:00] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-02 18:04:30] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-02 18:04:37] [WARNING]: 读取http配置失败 :yaml: unmarshal errors:
+  line 109: cannot unmarshal !!map into []server.httpServerPost 
+[2023-03-02 18:04:39] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-02 18:04:58] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-02 18:05:08] [WARNING]: 检查更新失败: Get "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest": dial tcp 127.0.0.1:443: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-02 18:37:10] [WARNING]: 语音文件 F2DA726FE9C90A8BDB75CDB00BF8AB2A.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 18:38:28] [WARNING]: 语音文件 B868647715917E85F667E6E4A2905D1E.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 18:39:35] [WARNING]: 语音文件 8664A8A26F2EBCFC7C6AA77E80ACA67E.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 18:41:01] [WARNING]: 语音文件 7AFB1355844DD763D9D588F1AE9BAB45.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:13:45] [WARNING]: 语音文件 40DB39551DBB4699513B3BC5A9529E6E.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:14:51] [WARNING]: 语音文件 FEFBAED32427E4816C780FB67F09B1E4.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:15:29] [WARNING]: 语音文件 4F5A7214C2182CE5A64010413C720945.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:16:19] [WARNING]: 语音文件 CCE8F08BC82FEEDC1F85872AABEE8CDF.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:17:09] [WARNING]: 语音文件 890D0B5D4DDE778C8AF0428C9D87D50D.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:18:08] [WARNING]: 语音文件 9AC73F470FFAF905F7C453B8FA7EA056.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:19:16] [WARNING]: 语音文件 F3D39CF5E29C3BABD219F5BE55941C14.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:20:41] [WARNING]: 语音文件 429A6F1B4B21CC064629B071A964F9A8.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:23:11] [WARNING]: 语音文件 78DA4FD23E09DEE4DC1757EBC68FE69C.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:24:47] [WARNING]: 语音文件 69BA91131BFA896482749059874CEB01.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:26:13] [WARNING]: 语音文件 EE96B5F75991EFEADAA624FA35BEB8FF.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:26:39] [WARNING]: 语音文件 282AC88478756E76EB2631A48624FB99.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:28:25] [WARNING]: 语音文件 D17E442050C4696175C8FC45C29718EA.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:29:20] [WARNING]: 语音文件 0597869F781CA47B1DF03DBD92AD6A02.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:36:55] [WARNING]: 语音文件 9D2239DF639C5AA52681F0584735DC5F.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:40:50] [WARNING]: 语音文件 BD88385B0FBFDB3EE296412059B6BFE2.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:40:50] [WARNING]: 语音文件 8CF613BC42B8734ADA308150EFBF4A2F.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:41:39] [WARNING]: 语音文件 4F06FB3D7CB119AE6EEE7B9782007619.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
+[2023-03-02 21:42:22] [WARNING]: 语音文件 F8D5A0283890AEFA1D6C05EAA136F259.amr 下载失败: Get "http://grouptalk.c2c.qq.com": EOF 
